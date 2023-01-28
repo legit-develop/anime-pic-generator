@@ -33,3 +33,8 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
