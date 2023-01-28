@@ -23,3 +23,13 @@ body {
   width: 450px;
   margin: 5px;
 }
+
+.btn {
+  background: #61876e;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
