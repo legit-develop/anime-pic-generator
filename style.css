@@ -1,0 +1,10 @@
+body {
+  background: url("./media/pexels-daniil-ustinov-11961892.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
