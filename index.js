@@ -14,6 +14,8 @@ btnEl.addEventListener("click", async () => {
   try {
     btnEl.disabled = true;
     btnEl.innerText = "loading...";
+    animeName.innerText = "updating...";
+    animeImgEl.src = "./media/gear.svg";
     //fetch API
     const response = await fetch("https://api.catboys.com/img");
     //convert to json
